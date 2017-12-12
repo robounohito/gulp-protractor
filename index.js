@@ -85,7 +85,7 @@ var protractor = function(options) {
 var wdUpdate = function(opts, cb) {
 	var callback = (cb ? cb : opts);
 	var options = (cb ? opts : null);
-	var args = ['update', '--versions.chrome', '2.32', '--standalone'];
+	var args = ['update', '--versions.chrome', '2.33', '--standalone'];
 	if (options) {
 		if (options.webdriverManagerArgs) {
 			options.webdriverManagerArgs.forEach(function(element) {
